@@ -3,13 +3,7 @@
 
 ## Authors :
 
-<<<<<<< HEAD
-## Authors :
-
--- Driver : RASHMI KAPU (119461754)
--- Navigator : NEHA MADHEKAR (119374436)
-=======
--- Driver: RASHMI KAPU (119461754)
+-- Driver: RASHMI KAPU (119461754)<br>
 -- Navigator: NEHA MADHEKAR (119374436)
 
 ## UML Diagram
