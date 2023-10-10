@@ -5,13 +5,16 @@
 
 -- Driver: RASHMI KAPU (119461754)<br>
 -- Navigator: NEHA MADHEKAR (119374436)
-## Authors - Part 2 :
-[![codecov](https://codecov.io/gh/Achuthankrishna/ENPM808X_TestDrivenDev/branch/main/graph/badge.svg)](https://codecov.io/gh/Achuthankrishna/ENPM808X_TestDrivenDev)<br>
+## Authors - Part 2 : [![codecov](https://codecov.io/gh/Achuthankrishna/ENPM808X_TestDrivenDev/branch/main/graph/badge.svg)](https://codecov.io/gh/Achuthankrishna/ENPM808X_TestDrivenDev)
 Navigator: Vyshnav Achuthan (Achuthankrishna) <br> 
 Driver: Jerry Pittman, Jr. (jpittma1)
 ## UML Diagram
 ![Alt text](UML.jpg)
 
+## To-Do
+1. add test case to validate PID gain values are real and non-zero
+2. Add a Test case for checkking non-zero values in the pipeline.
+3. Add a test case to check whether current state is greater than target
 
 ## Instructions to build and run :
 
