@@ -5,7 +5,9 @@
 
 -- Driver: RASHMI KAPU (119461754)<br>
 -- Navigator: NEHA MADHEKAR (119374436)
-
+## Authors - Part 2 :
+Navigator: Vyshnav Achuthan (Achuthankrishna) <br> 
+Driver: Jerry Pittman, Jr. (jpittma1)
 ## UML Diagram
 ![Alt text](UML.jpg)
 
