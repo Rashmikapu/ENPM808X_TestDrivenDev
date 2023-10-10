@@ -5,11 +5,12 @@
  of PID controller
  * @version 0.1
  * @date 2023-10-09
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 #include <gtest/gtest.h>
+
 #include "../include/pid.hpp"
 
 // void function_not_used() {
@@ -18,10 +19,10 @@
 // }
 /**
  * @brief To run all tests written in test.cpp
- * 
- * @param argc 
- * @param argv 
- * @return int 
+ *
+ * @param argc
+ * @param argv
+ * @return int
  */
 int main(int argc, char** argv) {
   ::testing::InitGoogleTest(&argc, argv);

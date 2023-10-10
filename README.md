@@ -2,10 +2,10 @@
 
 
 
-Authors :
+## Authors :
 
--- RASHMI KAPU (119461754)
--- NEHA MADHEKAR (119374436)
+-- Driver : RASHMI KAPU (119461754)
+-- Navigator : NEHA MADHEKAR (119374436)
 
 
 Instructions to build and run :
