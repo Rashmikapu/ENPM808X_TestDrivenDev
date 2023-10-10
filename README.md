@@ -1,7 +1,7 @@
 ![CICD Workflow status](https://github.com/Rashmikapu/ENPM808X_TestDrivenDev/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg) [![codecov](https://codecov.io/gh/Rashmikapu/ENPM808X_TestDrivenDev/branch/main/graph/badge.svg)](https://codecov.io/gh/Rashmikapu/ENPM808X_TestDrivenDev) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 
-##Authors :
+## Authors :
 
 -- Driver: RASHMI KAPU (119461754)
 -- Navigator: NEHA MADHEKAR (119374436)
@@ -9,7 +9,7 @@
 ## UML Diagram
 ![Alt text](UML.jpg)
 
-###Instructions to build and run :
+## Instructions to build and run :
 
 # Configure the project and generate a native build system:
   
