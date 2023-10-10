@@ -29,7 +29,7 @@ class PID_controller {
    parameters for Kp, Ki, Kd, initial velocity
    *
    */
-  PID_controller(double vel);
+  explicit PID_controller(double vel);
 
   /**
    * @brief To compute the output of PID controller with the given P,I,D values

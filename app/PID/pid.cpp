@@ -17,31 +17,31 @@
  * @return double
  */
 double PID_controller::compute() {
-  //Initialising constants
+  // Initialising constants
   double current_velocity = initial_vel;
-  double d_error,i_error=0.0;
-  double prev_error=0.0;
-  double deltaT=0.02;
+  double i_error = 0.0;
+  double prev_error = 0.0;
+  double deltaT = 0.02;
   // Feedback Loop to reduce error
   int iterations = 300;
-  for (int i  = 0; i < iterations; i++) {
+  for (int i = 0; i < iterations; i++) {
     // Proportional Error
-    double error =  expected_vel - current_velocity;
+    double error = expected_vel - current_velocity;
 
     // Derivative Error
-    d_error = (error - prev_error) /deltaT; 
+    double d_error = (error - prev_error) / deltaT;
 
     // Integral Error
     i_error += error * deltaT;
-    
+
     // Solve for output Velocity based on PID Controller
     double output_vel = (Kp * error) + (Ki * i_error) + (Kd * d_error);
     current_velocity += output_vel;
-    
+
     // Update Previous Error
     prev_error = error;
   }
- 
+
   return current_velocity;
 }
 

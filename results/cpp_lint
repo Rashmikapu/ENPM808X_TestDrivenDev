@@ -1,0 +1,8 @@
+ ~/Desktop/808x/TDD_part1_new/cpp-boilerplate-v2 <main> ✗ cpplint --filter="-legal/copyright" $( find . -name '*.cpp' | grep -vE -e "^./build/" )
+Done processing ./app/PID/pid.cpp
+Done processing ./app/main.cpp
+Done processing ./libs/lib1/src.cpp
+Done processing ./libs/lib2/src.cpp
+Done processing ./test/main.cpp
+Done processing ./test/test.cpp
+
