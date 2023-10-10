@@ -8,7 +8,7 @@
 
 ## UML Diagram
 ![Alt text](UML.jpg)
->>>>>>> 5e0e1eb779bec0a5c47ff3bb07516d8fd66fd0d7
+
 
 ## Instructions to build and run :
 
