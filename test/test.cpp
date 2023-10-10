@@ -20,6 +20,6 @@
 PID_controller pid_test(25.0);
 PID_controller pid_test1(100.0);
 
-TEST(compute, this_should_pass) { EXPECT_NEAR(pid_test.compute(), 10, 0.2); }
+TEST(compute, this_should_pass) { EXPECT_NEAR(pid_test.compute(), 25, 0.02); }
 
 TEST(compute, this_should_pass_too) { ASSERT_GT(pid_test1.compute(), 25); }
